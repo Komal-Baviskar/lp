@@ -32,11 +32,11 @@ int main()
   }
   if(pos==-1)
   {
-    cout<<target<<"is not present in the array";
+    cout<<target<<"is present in the array at position"<<pos<<endl;
   }
   else
   {
-    cout<<target<<"is present in the array at position"<<pos<<endl;
+    cout<<target<<"is not present in the array "<<endl;
   }
   return 0;
 }
