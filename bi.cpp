@@ -8,7 +8,7 @@ int main()
   cin>>n;
   int arr[n];
   cout<<"Enter "<<n<<"Integer in ascending order\n";
-  for(i=0;i<n;i++)
+  for(int i=0;i<n;i++)
   cin>>arr[i];
   int target;
   cout<<"Enter number you want to search\n";
@@ -37,6 +37,6 @@ int main()
   else
   {
     cout<<target<<"is present in the array at position<<pos<<endl;
-    }
+  }
   return 0;
 }
