@@ -32,7 +32,7 @@ int main()
   }
   if(pos==-1)
   {
-    cout<<targrt<<"is not present in the array";
+    cout<<target<<"is not present in the array";
   }
   else
   {
