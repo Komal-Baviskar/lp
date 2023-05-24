@@ -14,7 +14,7 @@ int main()
   cout<<"Enter number you want to search\n";
   cin>>target;
   
-  int start=0,end=n-1;mid;
+  int start=0,end=n-1,mid;
   int pos=-1;
   
   while(start<=end)
@@ -36,7 +36,7 @@ int main()
   }
   else
   {
-    cout<<target<<"is present in the array at position<<pos<<endl;
+    cout<<target<<"is present in the array at position"<<pos<<endl;
   }
   return 0;
 }
